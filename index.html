@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<title>Frequently Asked Questions</title>
+</head>
+<body>
+<header>
+	<h1>Frequently Asked Questions</h1>
+</header>
+<section class="cd-faq">
+	<ul class="cd-faq-categories">
+		<li><a class="selected" href="#basics">How-to</a></li>
+		<li><a href="#privacy">Privacy</a></li>
+	</ul> <!-- cd-faq-categories -->
+
+	<div class="cd-faq-items">
+		<ul id="basics" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>How-to</h2></li>
+			<li>
+				<a class="cd-faq-trigger" href="#0">How do I take a screenshot?</a>
+				<div class="cd-faq-content">
+					<p>You must first bring up the screenshot dialog, you can do this by using your set shortcut keys. After that you have two choices, if you would like to take your screenshot and convert it into a base64 string, you press enter after you have resized the window to your needs. If you would like to upload this on to the internet, you press U instead of enter.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">How do I convert a file to base64?</a>
+				<div class="cd-faq-content">
+					<p>You first bring up the screenshot dialog by using your preset shortcut keys. On the dialog you press "o" and you will be greeted by another dialog, you select your file and check whether you would like a base64 string of your file (when downloading from your browser, your file will not have a name or extension) or a base64 encoded download page (this allows your file to have a name.) Both these methods work without internet.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">How do I uninstall Screen64?</a>
+				<div class="cd-faq-content">
+					<p>You first delete the shortcut on your desktop (called Screen64) and then the binary (also called Screen64, should be in your downloads folder.)</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+		</ul> <!-- cd-faq-group -->
+
+		<ul id="privacy" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Privacy</h2></li>
+			<li>
+				<a class="cd-faq-trigger" href="#0">Do you collect any personal information?</a>
+				<div class="cd-faq-content">
+					<p>Just by downloading and installing Screen64, we do not collect any information about you. However if you choose to upload your screenshot to our servers, we collect IP addresses (this is to block any fraud.) Please note that if you do not upload any images to our servers then no information is sent or received to or from our servers, other then update requests.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">Can you see my images?</a>
+				<div class="cd-faq-content">
+					<p>Yes, we can see your images. However, rest assured that we do not look at any images no matter what. Our host (Google) simply allows us to look at our blobstore.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">Are my images encrypted when they are sent to your servers?</a>
+				<div class="cd-faq-content">
+					<p>Your images are encrypted in transport (with TLS 1.0, TLS 1.1 or TLS 1.2) and while on our servers. You can learn more about the security of Google's servers <a href="https://www.google.com/about/datacenters/inside/data-security/">here</a></p>
+				</div> <!-- cd-faq-content -->
+			</li>
+            			<li>
+				<a class="cd-faq-trigger" href="#0">Can I remove a picture from your servers?</a>
+				<div class="cd-faq-content">
+					<p>Yes. To remove a picture from our servers, you must have the <a href="http://whatismyip.org/">IP address</a> that you used when you uploaded the picture and the url of the picture. (IP addresses dont usually change unless you asked for it or unplugged your router for ~1 day.) Send this to remove@screen64.tk.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+		</ul> <!-- cd-faq-group -->
+	</div> <!-- cd-faq-items -->
+	<a href="#0" class="cd-close-panel">Close</a>
+</section> <!-- cd-faq -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
